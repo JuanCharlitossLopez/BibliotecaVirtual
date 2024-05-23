@@ -1,0 +1,20 @@
+CREATE TABLE usuarios(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    usuario VARCHAR(100) not null,
+    pass VARCHAR(100) not null
+);
+
+CREATE TABLE Libros (
+    ID_Libro INT PRIMARY KEY AUTO_INCREMENT,
+    Titulo VARCHAR(100) NOT NULL,
+    Autor VARCHAR(100) NOT NULL,
+    ISBN VARCHAR(20) UNIQUE,
+    Genero VARCHAR(50),
+    Sinopsis TEXT,
+    Publicacion DATE,
+    Disponibilidad BOOLEAN
+);
+
+CREATE TABLE Prestamos (
+    
+);
