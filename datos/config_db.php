@@ -1,5 +1,5 @@
 <?php
-    define('HOST', 'localhost');
+    define('HOST', 'monorail.proxy.rlwy.net');
     define('USER', 'root');
-    define('PASSWORD', '');
-    define('DATABASE', 'proyectoweb2');
+    define('PASSWORD', 'RjopfAsRqDIVIUPUXDffTzGeTxOphtMc');
+    define('DATABASE', 'railway');

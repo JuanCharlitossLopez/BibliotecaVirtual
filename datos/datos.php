@@ -2,10 +2,10 @@
 
  class Conexion extends PDO { 
    private $tipo_de_base = 'mysql';
-   private $host = 'localhost';
-   private $nombre_de_base = 'proyectoweb2';
+   private $host = 'monorail.proxy.rlwy.net';
+   private $nombre_de_base = 'railway';
    private $usuario = 'root';
-   private $contrasena = ''; 
+   private $contrasena = 'RjopfAsRqDIVIUPUXDffTzGeTxOphtMc'; 
    public function __construct() {
       //Sobreescribo el método constructor de la clase PDO.
       try{
